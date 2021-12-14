@@ -35,7 +35,7 @@ public class GameClock : MonoBehaviour
             greenLightLabel.gameObject.SetActive(true);
             timerLabel.gameObject.SetActive(true);
             // RED LIGHT //
-            randTime = randTime + UnityEngine.Random.Range(1.0f, 10.0f);
+            randTime = UnityEngine.Random.Range(3.0f, 10.0f);
             Wait(randTime, () =>
             {
                 greenLightLabel.gameObject.SetActive(false);
@@ -48,7 +48,7 @@ public class GameClock : MonoBehaviour
                     return;
                 }
                 // END RED LIGHT //
-                randTime = randTime + UnityEngine.Random.Range(1.0f, 3.0f);
+                randTime = UnityEngine.Random.Range(3.0f, 7.0f);
                 Wait(randTime, () =>
                 {
                     if (timerIsRunning == false)
@@ -64,7 +64,7 @@ public class GameClock : MonoBehaviour
                     // END GREEN LIGHT
                     // PUT LINE UNDER HERE
                     // RED LIGHT //
-                    randTime = randTime + UnityEngine.Random.Range(1.0f, 10.0f);
+                    randTime = UnityEngine.Random.Range(3.0f, 10.0f);
                     Wait(randTime, () =>
                     {
                         greenLightLabel.gameObject.SetActive(false);
@@ -77,7 +77,7 @@ public class GameClock : MonoBehaviour
                             return;
                         }
                         // END RED LIGHT //
-                        randTime = randTime + UnityEngine.Random.Range(1.0f, 3.0f);
+                        randTime = UnityEngine.Random.Range(3.0f, 7.0f);
                         Wait(randTime, () =>
                         {
                             if (timerIsRunning == false)
@@ -93,7 +93,7 @@ public class GameClock : MonoBehaviour
                             // END GREEN LIGHT
                             // PUT LINE UNDER HERE
                             // RED LIGHT //
-                            randTime = randTime + UnityEngine.Random.Range(1.0f, 10.0f);
+                            randTime = UnityEngine.Random.Range(3.0f, 10.0f);
                             Wait(randTime, () =>
                             {
                                 greenLightLabel.gameObject.SetActive(false);
@@ -106,7 +106,7 @@ public class GameClock : MonoBehaviour
                                     return;
                                 }
                                 // END RED LIGHT //
-                                randTime = randTime + UnityEngine.Random.Range(1.0f, 3.0f);
+                                randTime = UnityEngine.Random.Range(3.0f, 7.0f);
                                 Wait(randTime, () =>
                                 {
                                     if (timerIsRunning == false)
@@ -122,7 +122,7 @@ public class GameClock : MonoBehaviour
                                     // END GREEN LIGHT
                                     // PUT LINE UNDER HERE
                                     // RED LIGHT //
-                                    randTime = randTime + UnityEngine.Random.Range(1.0f, 10.0f);
+                                    randTime = UnityEngine.Random.Range(3.0f, 10.0f);
                                     Wait(randTime, () =>
                                     {
                                         greenLightLabel.gameObject.SetActive(false);
@@ -135,7 +135,7 @@ public class GameClock : MonoBehaviour
                                             return;
                                         }
                                         // END RED LIGHT //
-                                        randTime = randTime + UnityEngine.Random.Range(1.0f, 3.0f);
+                                        randTime = UnityEngine.Random.Range(3.0f, 7.0f);
                                         Wait(randTime, () =>
                                         {
                                             if (timerIsRunning == false)
@@ -151,7 +151,7 @@ public class GameClock : MonoBehaviour
                                             // END GREEN LIGHT
                                             // PUT LINE UNDER HERE
                                             // RED LIGHT //
-                                            randTime = randTime + UnityEngine.Random.Range(1.0f, 10.0f);
+                                            randTime = UnityEngine.Random.Range(1.0f, 10.0f);
                                             Wait(randTime, () =>
                                             {
                                                 greenLightLabel.gameObject.SetActive(false);
@@ -164,7 +164,7 @@ public class GameClock : MonoBehaviour
                                                     return;
                                                 }
                                                 // END RED LIGHT //
-                                                randTime = randTime + UnityEngine.Random.Range(1.0f, 3.0f);
+                                                randTime = UnityEngine.Random.Range(3.0f, 7.0f);
                                                 Wait(randTime, () =>
                                                 {
                                                     if (timerIsRunning == false)
@@ -180,7 +180,7 @@ public class GameClock : MonoBehaviour
                                                     // END GREEN LIGHT
                                                     // PUT LINE UNDER HERE
                                                     // RED LIGHT //
-                                                    randTime = randTime + UnityEngine.Random.Range(1.0f, 10.0f);
+                                                    randTime = UnityEngine.Random.Range(1.0f, 10.0f);
                                                     Wait(randTime, () =>
                                                     {
                                                         greenLightLabel.gameObject.SetActive(false);
@@ -193,7 +193,7 @@ public class GameClock : MonoBehaviour
                                                             return;
                                                         }
                                                         // END RED LIGHT //
-                                                        randTime = randTime + UnityEngine.Random.Range(1.0f, 3.0f);
+                                                        randTime = UnityEngine.Random.Range(3.0f, 7.0f);
                                                         Wait(randTime, () =>
                                                         {
                                                             if (timerIsRunning == false)
